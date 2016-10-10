@@ -10,9 +10,7 @@ img {
   width: 100%;
 }
 
-#app-container {
-  max-width: 960px;
-}
+
 
 
 .column-container {
@@ -42,57 +40,92 @@ img {
       }
   }
 
-.arrow {
-  text-align: center;
+
+.footer {
   width: 100%;
-  padding-left: 330px;
 }
+
+
 p {
-  text-align: center;
-  width: 15px;
+  max-width: 15px;
   background-color: black;
   color: white;
   padding: 2px 4px 0px 4px;
+  text-align: right;
+  margin-left: 50%;
+  }
 
+.footbox div {
+  width: 35%;
+  border: 1px solid grey;
+  padding: 20px 50px;
 }
+
+.search {
+  width: 25%;
+  text-align: center;
+  border: 1px solid grey;
+  margin-left: 250px;
+}
+
+.form {
+
+  padding-left: 50px;
+}
+  .img-container >* {
+    width: 50%;
+  }
 
 .menu2 {
   display: none;
 }
 
+  @media screen and (min-width:768px){
+    .head-img2,.menu2 {width: 50%;}
+
+    //  .head-img,.menu{
+    //   display: none;
+    // }
+
+    .menu2 {
+      position: relative;
+      top: 20px;
+      text-align: right;
+      }
+div.menu2 {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  text-align: right;
+}
+    .head-img2 {
+      position: absolute;
+      top: 10px;
+      right: 425px;
+      padding-left: 20px;
+
+    }
 
   .img-container >* {
-    width: 50%;
-  }
-
-  @media screen and (min-width:768px){
-    .head-img,.menu {width: 50%;}
-
-    .menu {
-
-      text-align: right;
-    }
-
-    .head-img {
-      position: relative;
-      top: 60px;
-      right: 330px;
-      padding-left: 20px;
-    }
-
-    .menu h4,h5 {
-      display: inline-block;
-    }
-
-    .img-container >* {
       width: 33.3333%;
     }
+    img-container {
+      position: relative;
+    }
 
-  }
+}
 
   @media screen and (min-width:1024px){
 
+
+
     .img-container >* {
       width: 25%;
+
+    }
+
+    .arrow {
+      display: none;
     }
   }
