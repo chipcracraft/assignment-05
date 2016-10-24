@@ -51,15 +51,24 @@ p {
     width: 50%; }
 
   .menu {
-    text-align: right; }
+    display: none; }
+
+  .menu2 {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 4%; }
 
   .head-img {
     position: relative;
-    top: 60px;
-    right: 330px;
+    top: 60%;
+    right: 32%;
     padding-left: 20px; }
 
-  .menu h4, h5 {
+  .menu-bar {
+    display: inline-block; }
+
+  .filter-bar {
     display: inline-block; }
 
   .img-container > * {
